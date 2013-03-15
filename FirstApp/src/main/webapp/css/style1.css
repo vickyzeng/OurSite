@@ -1,0 +1,139 @@
+@CHARSET "US-ASCII";
+#welcome {
+	background-image:url("../images/ws_Explore_dream_discover_1920x1080.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+
+h2, .field_name {
+	font-family:"Goudy Old Style";
+	font-size: 20px;
+}
+
+input {
+	width:200px;
+}
+
+.form_field {
+	margin-right:10px;
+	margin-bottom:10px;	
+}
+
+.header_bar {
+	font-family: "Curlz MT";
+    font-size: 40px;
+    font-weight:normal;
+    margin:1% 0 0 5%;
+}
+
+.sitename {
+	font-family: "Curlz MT";
+    font-size: 40px;
+    font-weight:normal;
+    position:relative;
+    margin: 3% 0 0 3%;
+}
+
+#enter {
+	position:relative;
+	margin-left:45%;
+    margin-top: 15%;
+}
+
+a {
+	font-family: "Curlz MT";
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#login_form_container {
+   display: block;
+    height: 450px;
+    position: relative;
+    right: -5%;
+    width: 300px;
+}
+
+#login_form {
+	display:block;
+	width:250px;
+	position:relative;
+	right: -5%;
+	top:30%;
+}
+
+.header_container {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #F7F7F7;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+body {
+	background:none repeat scroll 0 0 #FBFBFB;
+}
+section .container {
+    margin: 10% auto auto auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+.row {
+    clear: both;
+    height: auto;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.row ul li {
+    -moz-box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    float: left;
+    height: auto;
+    overflow: auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    /* width: 33.3%; */
+    width:0.33;
+    z-index: 2;
+}
+.row ul li span {
+    background-color:#E1383F;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+}
+
+.row ul li span h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 27px;
+    letter-spacing: 1px;
+    margin-top: -13px;
+    padding: 7px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    top: 50%;
+}
+
+.row ul li a {
+    color: #E1383F;
+    outline: 0 none;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out 0s;
+}
+.row ul li a:hover span {
+	opacity:0;
+}
